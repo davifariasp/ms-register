@@ -1,0 +1,9 @@
+services:
+  postgres:
+    container_name: pg-ms
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: 'pgpass'
+    ports:
+      - 5432:5432
