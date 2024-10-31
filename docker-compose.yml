@@ -7,3 +7,11 @@ services:
       POSTGRES_PASSWORD: 'pgpass'
     ports:
       - 5432:5432
+
+  rabbitmq:
+    container_name: rabbit-ms
+    image: rabbitmq:management
+    restart: always
+    ports:
+      - 5672:5672
+      - 15672:15672
