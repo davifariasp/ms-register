@@ -68,6 +68,8 @@ Links importantes para auxiliar a desenvolver o projeto
 
 Agora com os containers rodando, configure as variáveis de ambiente no IntelliJ e rode o projeto. Com isso você pode rodar ambos os serviços e fazer um teste de comunicação entre eles.
 
+[**Importante**] - Você também deve criar os databases no PostgresSQL: ms-user e ms-register.
+
 ### Registrar usuário
 `POST - localhost:8081/user`
 
